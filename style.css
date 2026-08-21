@@ -14,3 +14,18 @@
 .v3-wa{background:#4ade80}.v3-call{background:#e5b650}
 @media(max-width:850px){.bakery,.review-grid{grid-template-columns:1fr}}
 @media(max-width:520px){.bakery-content h2{font-size:45px}.bakery-photo img{height:330px}.v3-floating{display:none}}
+
+/* ===== SATKAR V4 ONLINE ORDER ===== */
+.order-section{background:#101010}
+.order-box{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr;gap:18px}
+.order-items{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;align-content:start}
+.order-card{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px;background:#161616;border:1px solid #29231a}
+.order-card h4{margin:0;font-size:14px}.order-card small{color:#b9b2a5}.order-card b{color:#e5b650}
+.qty{display:flex;align-items:center;gap:7px}.qty button{width:28px;height:28px;border:1px solid #e5b650;background:transparent;color:#e5b650;border-radius:4px;cursor:pointer}.qty span{min-width:18px;text-align:center}
+.order-summary{background:#151515;border:1px solid #45351f;padding:22px;position:sticky;top:95px;height:max-content}
+.order-summary h3{font:700 30px "Cormorant Garamond";color:#e5b650;margin-top:0}
+.cart-line{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #29231a;font-size:12px}.empty-cart{color:#b9b2a5;font-size:13px}
+.total-row{display:flex;justify-content:space-between;font-size:18px;padding:15px 0;margin-bottom:10px;border-top:1px solid #45351f}.total-row b{color:#e5b650}
+.order-summary input{width:100%;padding:12px;margin:5px 0;background:#080808;border:1px solid #4b3b22;color:#fff}.order-btn{width:100%;border:0;background:#4ade80!important;color:#071b0d!important;margin-top:10px}
+@media(max-width:850px){.order-box{grid-template-columns:1fr}.order-summary{position:static}.order-items{grid-template-columns:1fr}}
+@media(max-width:520px){.order-card{padding:12px}.order-summary{padding:16px}}
